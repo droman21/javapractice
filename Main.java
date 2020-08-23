@@ -11,6 +11,15 @@ public class Main {
         String a3 = a1 + a2;
         System.out.println(a3);
 
+        Bands[] bands = new Bands[] {
+            new Bands("The Rolling", "Stones"),
+            new Bands("Grateful", "Dead"),
+            new Bands("Allman", "Brothers"),
+        };
+        for (Bands xy : bands) {
+            xy.printFullName();
+        }
+
     }
 
 }
